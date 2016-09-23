@@ -1,4 +1,5 @@
 # android
+
 Apuntes de un aprendiz de Android
 
 # Elementos Material Design
@@ -22,7 +23,7 @@ Apuntes de un aprendiz de Android
 
 # Layout
  - Plantilla detalle toolbar flexible
- - 
+ - [Platilla para elementos de recyclerview, listview](https://github.com/webserveis/android/tree/master/layouts/draw_items)
 
 # Base de datos
 ## Realm 
