@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingEnd="@dimen/list_right_padding"
+    android:paddingLeft="@dimen/list_left_padding"
+    android:paddingRight="@dimen/list_right_padding"
+    android:paddingStart="@dimen/list_left_padding"
+    tools:context="com.webserveis.app.detaile.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Single-line item"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="16sp" />
+
+</RelativeLayout>
