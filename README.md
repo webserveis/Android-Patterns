@@ -17,7 +17,7 @@ Apuntes de un aprendiz de Android
  - Menus selecionables radiobutton, checkbox
 
 # Patrones
- - Navegación atrás
+ - [Navegación atrás](https://github.com/webserveis/android/blob/master/patterns/navegaci%C3%B3n_atras.md)
  - Intercambio de información
  - Base ArrayAdapter RecyclerView
 
