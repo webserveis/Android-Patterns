@@ -39,6 +39,8 @@ Apuntes de un aprendiz de Android
  - Versionado de contenido
  - Sincronización de datos Servidor
 
+# Tareas de segundo plano
+- [AsyncTask](https://gist.github.com/webserveis/a18e4381ee7f39f628e3470b0bb6cc7f)
 
 # Librerias Android externas
 
