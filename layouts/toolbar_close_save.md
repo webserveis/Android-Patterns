@@ -1,3 +1,6 @@
+### Plantilla
+
+![introducir la descripción de la imagen aquí][2]
 
 ### Recursos
 El mismo Android studio genera el icono `close` se debe canbiar su color `#FFFFFF`
@@ -115,3 +118,4 @@ public class EditActivity extends AppCompatActivity {
 
 }
 ```
+[2]: https://i.stack.imgur.com/NHw9K.png
