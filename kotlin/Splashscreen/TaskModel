@@ -1,0 +1,37 @@
+package com.example.webse.testkotlin2
+
+import android.support.annotation.IntDef
+class TaskModel(_status : @StatusResult Int = ENQUEUED, _progress : Int? = 0) {
+
+    companion object {
+
+        @Target(AnnotationTarget.TYPE, AnnotationTarget.PROPERTY, AnnotationTarget.VALUE_PARAMETER)
+        @IntDef(ENQUEUED, RUNNING, CANCELLED, SUCCESS, FAILURE)
+        @Retention(AnnotationRetention.SOURCE)
+        annotation class StatusResult
+
+        const val ENQUEUED = 0
+        const val RUNNING = 1
+        const val CANCELLED = 2
+        const val SUCCESS = 3
+        const val FAILURE = 4
+    }
+
+    @StatusResult
+    var status: Int
+    var progress: Int
+    var resultString: String?
+    var resultCode: Int
+
+    init {
+        status = _status
+        progress = _progress!!
+        resultString = null
+        resultCode = 0
+    }
+
+    override fun toString(): String {
+        return "TaskModel(status=$status, progress=$progress, resultString=$resultString, resultCode=$resultCode)"
+    }
+
+}
