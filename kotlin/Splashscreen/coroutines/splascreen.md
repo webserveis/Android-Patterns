@@ -33,3 +33,16 @@ El fondo a mostrar en la splashscreen se define al archivo drawable/background_s
     </item>
 </layer-list>
 ```
+
+En la definición de temas añadir
+
+```xml
+<style name="AppTheme.SplashScreen">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowBackground">@drawable/background_splash</item>
+</style>
+```
