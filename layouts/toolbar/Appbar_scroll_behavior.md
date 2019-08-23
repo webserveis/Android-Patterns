@@ -109,3 +109,6 @@ Se debe usar con combinación con la bandera enterAlways y sobre un CollapsingTo
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
    ```
+
+## Código fuente
+https://medium.com/@tonia.tkachuk/appbarlayout-scroll-behavior-with-layout-scrollflags-2eec41b4366b
