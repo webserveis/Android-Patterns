@@ -59,6 +59,27 @@ Plantilla base para Android Studio con barra de herramientas con un cuadro de bu
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 ```
+### Implementación
+Implmentación del `SearchView` usando Kotlin y AndroidX(Jetpack)
+El evento `onQueryTextSubmit` se recibe al finalizar la entrada del texto
+
+```kotlin
+search_view.setOnQueryTextListener(object :
+    androidx.appcompat.widget.SearchView.OnQueryTextListener {
+
+    override fun onQueryTextChange(newText: String): Boolean {
+        Log.d("SimpleSearchView", "Text changed:$newText")
+        return false
+    }
+
+    override fun onQueryTextSubmit(query: String): Boolean {
+        Log.d("SimpleSearchView", "Submit:$query")
+        Toast.makeText(this@Main2Activity, "Submit:$query", Toast.LENGTH_SHORT).show()
+        return false
+    }
+
+})
+```
 
 ## Recursos
 Recursos generales, para añadir contorno redondeado en el cuadro de texto
