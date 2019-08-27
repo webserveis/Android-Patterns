@@ -1,5 +1,9 @@
 # Plantilla básica con SearchView
-Plantilla base con barra de herramientas con un cuadro de busqueda permamente debajo de la acciones principales.
+
+![static searchview](https://dev4phones.files.wordpress.com/2019/08/header_searchview_scroll_template.png?w=360&h=640)
+
+
+Plantilla base para Android Studio con barra de herramientas con un cuadro de busqueda permamente debajo de la acciones principales.
 
  - Activity
  - AppBar
@@ -42,7 +46,7 @@ Plantilla base con barra de herramientas con un cuadro de busqueda permamente de
                 android:theme="@style/ThemeOverlay.MaterialComponents.Light"
                 app:iconifiedByDefault="false"
                 app:queryHint="@string/search"
-                app:searchIcon="@null" />
+                app:searchIcon="@null" />!
 
     </com.google.android.material.appbar.AppBarLayout>
 
