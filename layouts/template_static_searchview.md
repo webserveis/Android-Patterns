@@ -59,3 +59,19 @@ Plantilla base para Android Studio con barra de herramientas con un cuadro de bu
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 ```
+
+## Recursos
+Recursos generales, para añadir contorno redondeado en el cuadro de texto
+
+**drawable/bg_rounded_search.xml**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?android:colorForegroundInverse"/>
+    <corners android:radius="8dp"/>
+    <padding android:left="8dp"
+            android:bottom="8dp"
+            android:right="8dp"
+            android:top="8dp"/>
+</shape>
+```
