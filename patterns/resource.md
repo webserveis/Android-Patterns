@@ -59,6 +59,11 @@ mResultData.postValue(Resource.loading(null)))
 mResultData.postValue(Resource.success(list))
 ```
 
+**ERROR**
+```kotlin
+mResultData.postValue(Resource.error(AppException(e)))
+```
+
 ### Observando datos
 
 ```kotlin
@@ -73,7 +78,7 @@ private val changeObserver2 = Observer<Resource<List<String>>> { value ->
                 Log.d(TAG, value.data.toString())
             }
             Resource.Status.ERROR -> {
-                Log.d(TAG, "Error....")
+                Log.e(TAG, "Error: ${value.exception?.exceptin}")
             }
         }
     }
