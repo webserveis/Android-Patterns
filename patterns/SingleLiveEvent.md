@@ -6,7 +6,7 @@ Cuando usamos programación reactiva/ funcional y usamos los observadores de dat
 
 Archivo SingleLiveEvent.kt
 ```kotlin
-open class SingleLiveEvent<out T&gt;(private val content: T) {
+open class SingleLiveEvent<out T>(private val content: T) {
  
     var hasBeenHandled = false
         private set // Allow external read but not write
