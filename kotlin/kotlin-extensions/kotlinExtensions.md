@@ -26,6 +26,7 @@ fun Context?.toast(text: CharSequence, duration: Int = Toast.LENGTH_SHORT) = thi
  */
 fun Context?.toast(@StringRes textId: Int, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, textId, duration).show() }
 ```
+[Ejemplo de uso](use_context_toast.md)
 
 Context.vibrate Método de extensión para hacer vibrar el dispositivo.
 
