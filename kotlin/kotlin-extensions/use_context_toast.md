@@ -3,9 +3,15 @@
 
 ### Método de extención Context.Toast
 ```kotlin
+/**
+ * Método de extensión para mostrar brindis por contexto.
+ */
 fun Context?.toast(text: CharSequence, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, text, duration).show() }
-fun Context?.toast(@StringRes textId: Int, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, textId, duration).show() }
-```
+ 
+/**
+ * Método de extensión para mostrar brindis por contexto.
+ */
+fun Context?.toast(@StringRes textId: Int, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, textId, duration).show() }```
 
 ### Su uso
 ```kotlin
