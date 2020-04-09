@@ -11,7 +11,8 @@ fun Context?.toast(text: CharSequence, duration: Int = Toast.LENGTH_SHORT) = thi
 /**
  * Método de extensión para mostrar brindis por contexto.
  */
-fun Context?.toast(@StringRes textId: Int, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, textId, duration).show() }```
+fun Context?.toast(@StringRes textId: Int, duration: Int = Toast.LENGTH_SHORT) = this?.let { Toast.makeText(it, textId, duration).show() }
+```
 
 ### Su uso
 ```kotlin
